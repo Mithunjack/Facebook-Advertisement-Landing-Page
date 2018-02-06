@@ -1,0 +1,125 @@
+*{
+    transition: all .3s linear;
+}
+@font-face{
+	font-family: telenorRegularimport;
+	src:url(telenorRegular.TTF);	
+}
+@font-face{
+	font-family: TelenorLightimport;
+	src:url(TelenorLight.TTF);
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: black;
+	background-image: url("PartnershipYoutubeBackground.png");
+	background-repeat: no-repeat;
+}
+.container-fluid{
+	padding: 0px;
+	width: 960px;
+	height: 1080px;
+}
+.youtubeCoverphotodiv{
+	position: absolute;
+	top: 61px;
+	/*background-color: red;
+	opacity: .3;*/
+	width: 100%;
+	min-height: 311px;
+}
+#youtubeCoverSize{
+	width: 100%;
+	height: 245px;
+    object-fit: cover;
+	box-shadow: 0px 0px 20px 0px grey;
+}
+.youtubeGpProfilediv{
+    position: absolute;
+    top: 400px;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+}
+#gpProfileyoutubeSize{
+	border-radius: 50%;
+	max-height: 100%;
+	max-width: 100%;
+	box-shadow: 0px 0px 20px 5px grey;
+}
+.youtubeGpTag{
+	position: absolute;
+    top: 571px;
+    left: 22px;
+    font-size: 20px;
+    height: 50px;
+    font-family: telenorRegularimport;
+
+}
+#varify-img{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+    height: 15px;
+    width: 15px;
+}
+.youtubeVideodiv{
+    position: absolute;
+    top: 366px;
+    /* background-color: red; */
+    width: 710px;
+    height: 384px;
+    left: 212px;
+    /* opacity: .3; */
+    box-shadow: 0px 0px 20px 0px grey;
+}
+
+.addDiv{
+	position: absolute;
+    top: 818px;
+    right: 38px;
+    height: 203px;
+    width: 374px;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+#addSize{
+    max-width: 100%;
+    max-height: 100%;
+}
+.latestSongTitle {
+    position: absolute;
+    top: 808px;
+    font-size: 35px;
+    left: 212px;
+    font-family: telenorRegularimport;
+}
+.viewnumber{
+    position: absolute;
+    top: 866px;
+    font-size: 25px;
+    left: 212px;
+    font-family: telenorRegularimport;
+}
+.discription{
+    position: absolute;
+    top: 906px;
+    font-size: 18px;
+    left: 212px;
+    font-family: telenorRegularimport;
+}
+.discription-1{
+	position: absolute;
+    top: 935px;
+    font-size: 18px;
+    left: 212px;
+    font-family: telenorRegularimport;
+}
+.discription-2{
+	position: absolute;
+    top: 963px;
+    font-size: 18px;
+    left: 212px;
+    font-family: telenorRegularimport;
+}

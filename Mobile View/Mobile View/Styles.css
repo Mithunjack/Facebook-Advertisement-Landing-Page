@@ -1,0 +1,40 @@
+@font-face{
+	font-family: telenorRegularimport;
+	src:url(telenorRegular.TTF);	
+}
+@font-face{
+	font-family: TelenorLightimport;
+	src:url(TelenorLight.TTF);
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: black;
+	
+}
+.row{
+	margin: 0px;
+}
+.container-fluid{
+	padding: 0px;
+	margin: 0px;
+	
+}
+.col-md-12{
+	padding: 0px;
+	margin:0px;
+}
+
+.facebook-img-size{
+	height: 335px;
+    width: 335px;
+    position: relative;
+    left: 5%;
+}
+#youtube-img-size{
+	height: 335px;
+    width: 335px;
+    position: relative;
+    left: 5%;
+}

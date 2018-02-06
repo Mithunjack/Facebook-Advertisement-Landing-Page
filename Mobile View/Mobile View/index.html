@@ -1,0 +1,69 @@
+<!-- 1920*1080 -->
+<!DOCTYPE html>
+<html>
+    <head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Partnership-Mobile View</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="Styles.css">
+	</head>
+	
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<a href="#" class="">
+					<div class="col col-md-12 fbimg" style="background-color: rgb(58,88,158);height:50%;">
+						<img src="FACEBOOK new button .png" class="facebook-img-size" id="fb-img">
+					</div>
+				</a>
+				<a href="#">
+					<div class="col col-md-12 ytimg" style="background-color: rgb(230,45,40);height:50%;">
+						<img src="YOUTUBE new button.png" id="youtube-img-size" id="yt-img">
+					</div> 
+				</a>
+			</div>
+			
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+	    <script>
+			$(document).ready(function(){
+			     $('.fbimg').click(function(){
+			     	 var images = $(".fbimg img").attr("src");
+			     	/*console.log(images);*/
+			     	if (images=="FACEBOOK new button .png") {
+			     		$("#fb-img").attr('src',"FACEBOOK new button pressed .png");
+			     		$(".fbimg").css('background-color',"white");
+			     		/*$(".ytimg").css('background-color'," rgb(230,45,40)");
+			     		$(".ytimg img").attr('src',"YOUTUBE new button.png");*/
+			     	}
+			     	else{
+			     		$("#fb-img").attr('src',"FACEBOOK new button .png");
+			     		$(".fbimg").css('background-color'," rgb(58,88,158)");
+
+			     	}
+				 });
+
+				 $('.ytimg').click(function(){ 
+			     	var YoutubeImages = $(".ytimg img").attr("src");
+			     	/*console.log(YoutubeImages);*/
+			     	if (YoutubeImages=="YOUTUBE new button.png") {
+			     		/*console.log($(".ytimg img").attr('src'));*/
+			     		$(".ytimg img").attr('src',"YOUTUBE new button pressed .png");
+			     		$(".ytimg").css('background-color',"white");
+			     		/*$(".fbimg").css('background-color'," rgb(58,88,158)");
+			     		$("#fb-img").attr('src',"FACEBOOK new button .png");*/
+			     	}
+			     	else{
+			     		$(".ytimg img").attr('src',"YOUTUBE new button.png");
+			     		$(".ytimg").css('background-color'," rgb(230,45,40)");
+			     	}
+				 });
+			});
+		</script>
+    </body>
+</html>

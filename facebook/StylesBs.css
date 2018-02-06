@@ -1,0 +1,258 @@
+*{
+	transition: all .5s linear;
+}
+@font-face{
+	font-family: telenorRegularimport;
+	src:url(telenorRegular.TTF);	
+}
+@font-face{
+	font-family: TelenorLightimport;
+	src:url(TelenorLight.TTF);
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: black;
+	background-image: url("PartnershipFacebookBackground.png");
+	background-repeat: no-repeat;
+}
+.container-fluid{
+	padding: 0px;
+	width: 1920px;
+	height: 1080px;
+	
+}
+.profilePictureDiv{
+	height: 270px;
+	width: 270px;
+	position: absolute;
+	top: 119px;
+	left: 48px;
+	/*background-color: red;
+	opacity: .3;*/
+}
+#profilePictureImg{
+	height: 270px;
+	width: 270px;
+	box-shadow: 0px 0px 20px 0px grey;
+}
+.grameenphoneTagDiv{
+	height: 50px;
+    width: 270px;
+    position: absolute;
+    left: 48px;
+    top: 418px;
+    background-color: red;
+    opacity: .3;
+
+}
+#grameenPageName{
+	position: absolute;
+    left: 48px;
+    top: 420px;
+    font-size: 30px;
+    display: inline-block;
+    font-family: telenorRegularimport;
+}
+#grameenphoneAtTag{
+	font-family: telenorRegularimport;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    top: 465px;
+    font-size: 22px;
+}
+#grameenphoneIcon{
+	position: absolute;
+    left: 281px;
+    top: 424px;
+    height: 35px;
+    width: 35px;
+}
+.coverPictureDiv{
+	height: 385px;
+    width: 1176px;
+    position: absolute;
+    left: 373px;
+}
+#coverPictureImg{
+	height: 100%;
+	width: 100%;
+	box-shadow: 0px 0px 20px 0px grey;
+	object-fit: cover;
+}
+.recentPost{
+	position: absolute;
+	top: 119px;
+	height: 270px;
+	width: 270px;
+	right: 122px;
+}
+#recentPostSize{
+	height: 270px;
+	width: 270px;
+	background-color: white;
+	box-shadow: 0px 0px 20px 0px grey;
+}
+#captionSize{
+	font-size: 20px;
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    font-family: telenorRegularimport;
+}
+.facebookVideoDiv{
+	position: absolute;
+    top: 540px;
+    height: 446px;
+    width: 940px;
+    left: 492px;
+    background-color: white;
+}
+#facebookVideoSize{
+	height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+#facebookvideoNameSize{
+	font-size: 35px;
+    position: absolute;
+    top: 470px;
+    left: 486px;
+}
+.shopDiv{
+    height: 225px;
+    width: 330px;
+    position: absolute;
+    right: 35px;
+    top: 464px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+#ShopTagSize{
+	position: absolute;
+    top: 10px;
+    right: 360px;
+    font-size: 20px;
+}
+#FirstAddDiv{
+	height: 100%;
+	/*background-color: red;
+	opacity: .3;*/
+	padding: 0px;
+	margin:0px;
+}
+#FirstAddSize{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#firstprice-offer{
+    position: absolute;
+    font-size: 20px;
+    top: 165px;
+    left: 10px;
+    font-family: telenorRegularimport;
+}
+#SecondAddDiv{
+	height: 100%;
+	/*background-color: green;
+	opacity: .3;*/
+	padding: 0px;
+	margin:0px;
+
+}
+#SecondAddSize{
+	height: 150px;
+    width: 150px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+#secondprice-offer{
+    position: absolute;
+    font-size: 20px;
+    top: 165px;
+    left: 8px;
+    font-family: telenorRegularimport;
+}
+.addAreaDiv{
+	height: 235px;
+    width: 434px;
+    position: absolute;
+    top: 720px;
+    left: 1570px;
+	
+}
+#addAreaSize{
+	height: 235px;
+    width: 330px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+.Like-IconDiv{
+	height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 523px;
+    left: 50px;
+    display: inline-block;
+    /*background-color: red;
+    opacity: .3;*/
+}
+#like-img{
+	height: 100px;
+	display: inline-block;
+}
+#like-amount{
+	position: absolute;
+    top: 626px;
+    font-size: 30px;
+    left: 45px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
+#like-tag{
+	position: absolute;
+    top: 660px;
+    font-size: 30px;
+    left: 45px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
+
+.follow-IconDiv{
+	height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    display: inline-block;
+    /*background-color: red;
+    opacity: .3;*/
+}
+#follow-img{
+	height: 100px;
+	display: inline-block;
+}
+#follow-amount{
+	position: absolute;
+    top: 874px;
+    font-size: 30px;
+    left: 45px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
+#follow-tag{
+	position: absolute;
+    top: 910px;
+    font-size: 30px;
+    left: 45px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
