@@ -142,6 +142,7 @@ body{
     top: 175px;
     left: 830px;
     z-index: 1;
+    font-family: telenorRegularimport;
 }
 .shopDiv{
     height: 225px;
