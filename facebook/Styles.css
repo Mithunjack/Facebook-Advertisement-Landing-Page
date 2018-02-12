@@ -2,25 +2,25 @@
     transition: all .5s linear;
 }
 @font-face{
-	font-family: telenorRegularimport;
-	src:url(telenorRegular.TTF);	
+    font-family: telenorRegularimport;
+    src:url(telenorRegular.TTF);    
 }
 @font-face{
-	font-family: TelenorLightimport;
-	src:url(TelenorLight.TTF);
+    font-family: TelenorLightimport;
+    src:url(TelenorLight.TTF);
 }
 
 body{
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-	color: black;
-	background-image: url("PartnershipFacebookBackgroundSplit.png");
-	background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: black;
+    background-image: url("PartnershipFacebookBackgroundSplit.png");
+    background-repeat: no-repeat;
 }
 .container-fluid{
-	padding: 0px;
-	width: 960px;
-	height: 1080px;
+    padding: 0px;
+    width: 960px;
+    height: 1080px;
 }
 .profilePictureDiv{
     height: 200px;
@@ -30,12 +30,12 @@ body{
     left: 26px;
 }
 #profilePictureImg{
- 	max-width: 100%;
+    max-width: 100%;
     max-height: 100%;
-	box-shadow: 0px 0px 20px 0px grey;
+    box-shadow: 0px 0px 20px 0px grey;
 }
 .grameenphoneTagDiv{
-	height: 50px;
+    height: 50px;
     width: 270px;
     position: absolute;
     left: 48px;
@@ -45,7 +45,7 @@ body{
 
 }
 #grameenPageName{
-	position: absolute;
+    position: absolute;
     left: 10px;
     top: 280px;
     font-size: 30px;
@@ -53,7 +53,7 @@ body{
     font-family: telenorRegularimport;
 }
 #grameenphoneAtTag{
-	font-family: telenorRegularimport;
+    font-family: telenorRegularimport;
     height: 30px;
     position: absolute;
     left: 46px;
@@ -75,9 +75,9 @@ body{
     left: 256px;
 }
 #coverPictureImg{
- 	max-width: 100%;
+    max-width: 100%;
     max-height: 100%;
-	box-shadow: 0px 0px 20px 0px grey;
+    box-shadow: 0px 0px 20px 0px grey;
 }
 .recentPost {
     position: absolute;
@@ -87,13 +87,13 @@ body{
     left: 32px;
 }
 #recentPostSize{
-	max-width: 100%;
-	max-height: 100%;
-	box-shadow: 0px 0px 20px 0px grey;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 20px 0px grey;
     visibility: hidden;
 }
 #captionSize{
-	font-size: 20px;
+    font-size: 20px;
     position: absolute;
     top: 1015px;
     left: 85px;
@@ -101,7 +101,7 @@ body{
     visibility: hidden;
 }
 .facebookVideoDiv{
-	position: absolute;
+    position: absolute;
     top: 352px;
     height: 351px;
     width: 646px;
@@ -110,9 +110,9 @@ body{
     box-shadow: 0px 0px 20px 0px grey;
 }
 /*#facebookVideoSize{
-	height: 446px;
-	width: 792px;
-	box-shadow: 0px 0px 20px 0px grey;
+    height: 446px;
+    width: 792px;
+    box-shadow: 0px 0px 20px 0px grey;
 }*/
 #facebookvideoNameSize{
     font-size: 30px;
@@ -158,11 +158,11 @@ body{
     font-family: telenorRegularimport;
 }
 #SecondAddDiv{
-	height: 100%;
-	/*background-color: green;
-	opacity: .3;*/
-	padding: 0px;
-	margin:0px;
+    height: 100%;
+    /*background-color: green;
+    opacity: .3;*/
+    padding: 0px;
+    margin:0px;
 
 }
 #SecondAddSize{
@@ -179,22 +179,22 @@ body{
     font-family: telenorRegularimport;
 }
 .addAreaDiv{
-	height: 235px;
-	width: 434px;
-	position: absolute;
-	bottom: 56px;
-	right: 30px;
+    height: 235px;
+    width: 434px;
+    position: absolute;
+    bottom: 56px;
+    right: 30px;
     visibility: hidden;
-	
+    
 }
 #addAreaSize{
-	height: 235px;
-	width: 434px;
-	background-color: white;
-	box-shadow: 0px 0px 20px 0px grey;
+    height: 235px;
+    width: 434px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
 }
 .Like-IconDiv{
-	height: 100px;
+    height: 100px;
     width: 100px;
     position: absolute;
     top: 375px;
@@ -204,9 +204,9 @@ body{
     opacity: .3;*/
 }
 #like-img{
-	max-width: 100%;
-	max-height: 100%;
-	display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
 }
 #like-amount {
     position: absolute;
@@ -236,9 +236,268 @@ body{
     display: inline-block;
 }
 #follow-img{
-	max-height: 100%;
-	max-width: 100%;
-	display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+#follow-amount {
+    position: absolute;
+    top: 676px;
+    font-size: 25px;
+    left: 28px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
+#follow-tag {
+    position: absolute;
+    top: 710px;
+    font-size: 25px;
+    left: 32px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}*{
+    transition: all .5s linear;
+}
+@font-face{
+    font-family: telenorRegularimport;
+    src:url(telenorRegular.TTF);    
+}
+@font-face{
+    font-family: TelenorLightimport;
+    src:url(TelenorLight.TTF);
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: black;
+    background-image: url("PartnershipFacebookBackgroundSplit.png");
+    background-repeat: no-repeat;
+}
+.container-fluid{
+    padding: 0px;
+    width: 960px;
+    height: 1080px;
+}
+.profilePictureDiv{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    left: 26px;
+}
+#profilePictureImg{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+.grameenphoneTagDiv{
+    height: 50px;
+    width: 270px;
+    position: absolute;
+    left: 48px;
+    top: 418px;
+    background-color: red;
+    opacity: .3;
+
+}
+#grameenPageName{
+    position: absolute;
+    left: 10px;
+    top: 280px;
+    font-size: 30px;
+    display: inline-block;
+    font-family: telenorRegularimport;
+}
+#grameenphoneAtTag{
+    font-family: telenorRegularimport;
+    height: 30px;
+    position: absolute;
+    left: 46px;
+    top: 320px;
+    font-size: 22px;
+}
+#grameenphoneIcon{
+    position: absolute;
+    left: 224px;
+    top: 292px;
+    height: 25px;
+    width: 25px;
+}
+.coverPictureDiv {
+    height: 260px;
+    width: 702px;
+    position: absolute;
+    top: 44px;
+    left: 256px;
+}
+#coverPictureImg{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+.recentPost {
+    position: absolute;
+    top: 800px;
+    height: 200px;
+    width: 200px;
+    left: 32px;
+}
+#recentPostSize{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 20px 0px grey;
+    visibility: hidden;
+}
+#captionSize{
+    font-size: 20px;
+    position: absolute;
+    top: 1015px;
+    left: 85px;
+    font-family: telenorRegularimport;
+    visibility: hidden;
+}
+.facebookVideoDiv{
+    position: absolute;
+    top: 352px;
+    height: 351px;
+    width: 646px;
+    left: 285px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+/*#facebookVideoSize{
+    height: 446px;
+    width: 792px;
+    box-shadow: 0px 0px 20px 0px grey;
+}*/
+#facebookvideoNameSize{
+    font-size: 30px;
+    position: absolute;
+    top: 706px;
+    left: 460px;
+    color: #20b2ae;
+}
+.shopDiv{
+    height: 295px;
+    width: 646px;
+    position: absolute;
+    display: inline-flex;
+    right: 43px;
+    top: 766px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+#ShopTagSize{
+    position: absolute;
+    top: 0px;
+    right: 588px;
+    color: darkblue;
+    font-size: 20px;
+}
+#FirstAddDiv{
+    height: 235px;
+    width: 285px;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+#FirstAddSize{
+    height: 235px;
+    width: 285px;
+    margin-left: -16px;
+    margin-top: 0px;
+}
+#firstprice-offer{
+    position: absolute;
+    font-size: 18px;
+    top: 237px;
+    left: -2px;
+    font-family: telenorRegularimport;
+}
+#SecondAddDiv{
+    height: 100%;
+    /*background-color: green;
+    opacity: .3;*/
+    padding: 0px;
+    margin:0px;
+
+}
+#SecondAddSize{
+    height: 235px;
+    width: 285px;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+#secondprice-offer{
+    position: absolute;
+    font-size: 18px;
+    top: 266px;
+    left: 14px;
+    font-family: telenorRegularimport;
+}
+.addAreaDiv{
+    height: 235px;
+    width: 434px;
+    position: absolute;
+    bottom: 56px;
+    right: 30px;
+    visibility: hidden;
+    
+}
+#addAreaSize{
+    height: 235px;
+    width: 434px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+}
+.Like-IconDiv{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 375px;
+    left: 30px;
+    display: inline-block;
+    /*background-color: red;
+    opacity: .3;*/
+}
+#like-img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+#like-amount {
+    position: absolute;
+    top: 460px;
+    font-size: 25px;
+    left: 28px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
+#like-tag {
+    position: absolute;
+    top: 492px;
+    font-size: 25px;
+    left: 32px;
+    height: 100px;
+    color: rgb(65,103,178);
+    font-family: telenorRegularimport;
+}
+
+.follow-IconDiv {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    display: inline-block;
+}
+#follow-img{
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
 }
 #follow-amount {
     position: absolute;
