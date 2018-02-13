@@ -75,23 +75,25 @@ body{
 }
 #varify-img{
 	position: absolute;
-    top: 60px;
+    top: 75px;
     left: 85px;
     height: 45px;
 }
 .youtubeVideodiv{
 	position: absolute;
-	top: 451px;
-	/*background-color:red;*/
-	width: 949px;
-	height: 533px;
-	left: 485px;
-	/*opacity: .3;*/
+    top: 258px;
+    height: 462px;
+    width: 822px;
+    left: 265px;
+    background-color: white;
+    border-radius: 15px;
 }
 #videoSizeDiv{
-	width: 949px;
-	height: 533px;
-	box-shadow: 0px 0px 20px 0px grey;
+	height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px grey;
+    border-radius: 15px;
+    background-color: white;
 }
 .addDiv{
 	position: absolute;
@@ -105,19 +107,22 @@ body{
 	width: 322px;
 	box-shadow: 0px 0px 20px 0px grey;
 }
-.latestSongTitle{
-	position: absolute;
-    top: 438px;
-    font-size: 45px;
-    left: 1500px;
+#latestSongTitle{
+	font-size: 35px;
+    position: absolute;
+    top: 175px;
+    left:265px;
+    z-index: 1;
     font-family: telenorRegularimport;
 }
 .viewnumber{
-	position: absolute;
-    top: 534px;
-    font-size: 25px;
-    left: 1525px;
+    position: absolute;
+    top: 865px;
+    font-size: 22px;
+    left: 1470px;
     font-family: telenorRegularimport;
+    z-index: 1;
+    color: white;
 }
 .discription{
 	position: absolute;
@@ -139,4 +144,63 @@ body{
     font-size: 25px;
     left: 1525px;
     font-family: telenorRegularimport;
+}
+.body-wrapper{
+    background-color: #e9ebef;
+    position: absolute;
+    width:1062px;
+    height: 796px;
+    top: 143px;
+    left: 137px;
+    border-radius: 15px 0px 0px 15px;
+}
+#addAreaSize{
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px grey;
+    z-index: 1;
+}
+.addAreaDiv-1{
+    height: 113px;
+    width: 208px;
+    position: absolute;
+    top: 760px;
+    left: 265px;
+}
+.addAreaDiv-2{
+    height: 113px;
+    width: 208px;
+    position: absolute;
+    top: 760px;
+    left: 570px;
+}
+.addAreaDiv-3{
+    height: 113px;
+    width: 208px;
+    position: absolute;
+    top: 760px;
+    left: 880px;
+}
+.youtube-icon{
+    width: 55px;
+    height: 40px;
+    position: absolute;
+    right: 500px;
+    bottom: 165px;
+    z-index: 1;
+}
+#icon-id{
+	height: 100%;
+    width: 100%;
+}
+.subscribers-tag{
+	position: absolute;
+    top: 890px;
+    font-size: 25px;
+    left: 1463px;
+    font-family: telenorRegularimport;
+    z-index: 1;
+    color: white;
 }
