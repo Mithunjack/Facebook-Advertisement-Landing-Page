@@ -23,103 +23,148 @@ body{
 	height: 1080px;
 }
 .youtubeCoverphotodiv{
-	position: absolute;
-	top: 61px;
-	/*background-color: red;
-	opacity: .3;*/
-	width: 100%;
-	min-height: 311px;
+    height: 285px;
+    width: 790px;
+    position: absolute;
+    left: 85px;
+    top: 68px;
 }
 #youtubeCoverSize{
-	width: 100%;
-	height: 245px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px grey;
     object-fit: cover;
-	box-shadow: 0px 0px 20px 0px grey;
+    border-radius: 15px 15px 0px 0px;
+    filter: brightness(70%);
+}
+.cover-down-part{
+    position: absolute;
+    top: 350px;
+    left: 85px;
+    width: 790px;
+    height: 80px;
+    background-color: rgb(230,45,40);
+    box-shadow: 0px 1px 5px black inset;
+    border-radius: 0px 0px 15px 15px;
 }
 .youtubeGpProfilediv{
+    height: 140px;
+    width: 140px;
     position: absolute;
-    top: 400px;
-    width: 150px;
-    height: 150px;
-    left: 20px;
+    top: 95px;
+    left: 410px;
+    z-index: 1;
 }
 #gpProfileyoutubeSize{
-	border-radius: 50%;
-	max-height: 100%;
-	max-width: 100%;
-	box-shadow: 0px 0px 20px 5px grey;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px grey;
 }
 .youtubeGpTag{
-	position: absolute;
-    top: 571px;
-    left: 22px;
-    font-size: 20px;
-    height: 50px;
+    position: absolute;
+    left: 400px;
+    top: 245px;
+    font-size: 22px;
+    color: white;
+    display: inline-block;
     font-family: telenorRegularimport;
+    z-index: 1;
 
 }
 #varify-img{
     position: absolute;
-    top: 9px;
-    left: 150px;
-    height: 15px;
-    width: 15px;
+    left: 65px;
+    top: 40px;
+    height: 25px;
+    width: 25px;
+    z-index: 1;
+}
+.body-wrapper{
+    background-color: #e9ebef;
+    position: absolute;
+    width: 730px;
+    height: 572px;
+    bottom: 76px;
+    box-shadow: 0px 0.5px 10px black inset;
+    right: 120px;
+    border-radius: 0px 0px 15px 15px;
 }
 .youtubeVideodiv{
     position: absolute;
-    top: 366px;
-    /* background-color: red; */
-    width: 710px;
-    height: 384px;
-    left: 212px;
-    /* opacity: .3; */
+    bottom: 240px;
+    height: 328px;
+    width: 580px;
+    right: 190px;
+    background-color: white;
+    border-radius: 15px;
+}
+#youtubeVideoSize{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px grey;
+    border-radius: 15px;
+    background-color: white;
+}
+#addAreaSize{
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
+    background-color: white;
     box-shadow: 0px 0px 20px 0px grey;
+    z-index: 1;
+}
+.addAreaDiv-1{
+    height: 80px;
+    width: 145px;
+    position: absolute;
+    bottom: 135px;
+    left: 190px;
+}
+.addAreaDiv-2{
+    height: 80px;
+    width: 145px;
+    position: absolute;
+    bottom: 135px;
+    right: 410px;
+}
+.addAreaDiv-3{
+    height: 80px;
+    width: 145px;
+    position: absolute;
+    bottom: 135px;
+    right: 190px;
 }
 
-.addDiv{
-	position: absolute;
-    top: 818px;
-    right: 38px;
-    height: 203px;
-    width: 374px;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-#addSize{
-    max-width: 100%;
-    max-height: 100%;
-}
-.latestSongTitle {
+#latestSongTitle {
+    font-size: 20px;
     position: absolute;
-    top: 808px;
-    font-size: 35px;
-    left: 212px;
+    top: 460px;
+    left: 190px;
+    z-index: 1;
     font-family: telenorRegularimport;
+}
+#icon-id{
+    height: 40px;
+    display: inline-block;
+}
+.subscribers-tag{
+    position: absolute;
+    top: 390px;
+    font-size: 17px;
+    right: 401px;
+    font-family: telenorRegularimport;
+    color: white;
 }
 .viewnumber{
     position: absolute;
-    top: 866px;
-    font-size: 25px;
-    left: 212px;
+    top: 370px;
+    font-size: 15px;
+    right: 410px;
     font-family: telenorRegularimport;
+    color: white;
 }
-.discription{
+.youtube-icon{
     position: absolute;
-    top: 906px;
-    font-size: 18px;
-    left: 212px;
-    font-family: telenorRegularimport;
-}
-.discription-1{
-	position: absolute;
-    top: 935px;
-    font-size: 18px;
-    left: 212px;
-    font-family: telenorRegularimport;
-}
-.discription-2{
-	position: absolute;
-    top: 963px;
-    font-size: 18px;
-    left: 212px;
-    font-family: telenorRegularimport;
+    top: 370px;
+    left: 385px;
 }

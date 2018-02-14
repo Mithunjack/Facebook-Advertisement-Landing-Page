@@ -230,7 +230,7 @@ body{
 .Like-IconDiv{
     height: 45px;
     position: absolute;
-    top: 372px;
+    top: 370px;
     left: 190px;
     display: inline-block;
 }
@@ -240,14 +240,14 @@ body{
 }
 #like-amount{
     position: absolute;
-    top: 380px;
+    top: 378px;
     font-size: 15px;
     left: 270px;
     font-family: telenorRegularimport;
 }
 #like-tag{
     position: absolute;
-    top: 400px;
+    top: 398px;
     font-size: 15px;
     left: 258px;
     font-family: telenorRegularimport;
@@ -257,7 +257,7 @@ body{
     height: 60px;
     width: 60px;
     position: absolute;
-    top: 377px;
+    top: 370px;
     left: 590px;
     display: inline-block;
 }
@@ -267,14 +267,14 @@ body{
 }
 #follow-amount{
     position: absolute;
-    top: 380px;
+    top: 375px;
     font-size: 15px;
     right: 210px;
     font-family: telenorRegularimport;
 }
 #follow-tag{
     position: absolute;
-    top: 400px;
+    top: 395px;
     font-size: 15px;
     right: 190px;
     font-family: telenorRegularimport;
