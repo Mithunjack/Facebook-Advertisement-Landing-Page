@@ -23,15 +23,16 @@ body{
     height: 1080px;
 }
 .profilePictureDiv{
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
     position: absolute;
-    top: 70px;
-    left: 26px;
+    top: 95px;
+    left: 410px;
+    z-index: 1;
 }
 #profilePictureImg{
-    max-width: 100%;
-    max-height: 100%;
+    height: 100%;
+    border-radius: 50%;
     box-shadow: 0px 0px 20px 0px grey;
 }
 .grameenphoneTagDiv{
@@ -46,374 +47,134 @@ body{
 }
 #grameenPageName{
     position: absolute;
-    left: 10px;
-    top: 280px;
-    font-size: 30px;
+    left: 400px;
+    top: 245px;
+    font-size: 22px;
+    color: white;
     display: inline-block;
     font-family: telenorRegularimport;
+    z-index: 1;
 }
 #grameenphoneAtTag{
     font-family: telenorRegularimport;
     height: 30px;
     position: absolute;
-    left: 46px;
-    top: 320px;
-    font-size: 22px;
+    left: 414px;
+    top: 275px;
+    font-size: 16px;
+    color: white;
+    z-index: 1;
 }
 #grameenphoneIcon{
     position: absolute;
-    left: 224px;
-    top: 292px;
+    left: 460px;
+    top: 305px;
     height: 25px;
     width: 25px;
+    z-index: 1;
 }
-.coverPictureDiv {
-    height: 260px;
-    width: 702px;
+.coverPictureDiv{
+    height: 285px;
+    width: 790px;
     position: absolute;
-    top: 44px;
-    left: 256px;
+    left: 85px;
+    top: 68px;
 }
 #coverPictureImg{
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-.recentPost {
-    position: absolute;
-    top: 800px;
-    height: 200px;
-    width: 200px;
-    left: 32px;
-}
-#recentPostSize{
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 0px 0px 20px 0px grey;
-    visibility: hidden;
-}
-#captionSize{
-    font-size: 20px;
-    position: absolute;
-    top: 1015px;
-    left: 85px;
-    font-family: telenorRegularimport;
-    visibility: hidden;
-}
-.facebookVideoDiv{
-    position: absolute;
-    top: 352px;
-    height: 351px;
-    width: 646px;
-    left: 285px;
-    background-color: white;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-/*#facebookVideoSize{
-    height: 446px;
-    width: 792px;
-    box-shadow: 0px 0px 20px 0px grey;
-}*/
-#facebookvideoNameSize{
-    font-size: 30px;
-    position: absolute;
-    top: 706px;
-    left: 460px;
-    color: #20b2ae;
-}
-.shopDiv{
-    height: 295px;
-    width: 646px;
-    position: absolute;
-    display: inline-flex;
-    right: 43px;
-    top: 766px;
-    background-color: white;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-#ShopTagSize{
-    position: absolute;
-    top: 0px;
-    right: 588px;
-    color: darkblue;
-    font-size: 20px;
-}
-#FirstAddDiv{
-    height: 235px;
-    width: 285px;
-    margin-left: 32px;
-    margin-top: 30px;
-}
-#FirstAddSize{
-    height: 235px;
-    width: 285px;
-    margin-left: -16px;
-    margin-top: 0px;
-}
-#firstprice-offer{
-    position: absolute;
-    font-size: 18px;
-    top: 237px;
-    left: -2px;
-    font-family: telenorRegularimport;
-}
-#SecondAddDiv{
     height: 100%;
-    /*background-color: green;
-    opacity: .3;*/
-    padding: 0px;
-    margin:0px;
-
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px grey;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    filter: brightness(50%);
 }
-#SecondAddSize{
-    height: 235px;
-    width: 285px;
-    margin-left: 14px;
-    margin-top: 30px;
-}
-#secondprice-offer{
+.cover-down-part{
     position: absolute;
-    font-size: 18px;
-    top: 266px;
-    left: 14px;
-    font-family: telenorRegularimport;
+    top: 350px;
+    left: 85px;
+    width: 790px;
+    height: 80px;
+    background-color: rgb(0,148,255);
+    box-shadow: 0px 1px 5px black inset;
+    border-radius: 0px 0px 15px 15px;
 }
-.addAreaDiv{
-    height: 235px;
-    width: 434px;
+.recentPost{
     position: absolute;
-    bottom: 56px;
-    right: 30px;
-    visibility: hidden;
-    
-}
-#addAreaSize{
-    height: 235px;
-    width: 434px;
-    background-color: white;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-.Like-IconDiv{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 375px;
-    left: 30px;
-    display: inline-block;
-    /*background-color: red;
-    opacity: .3;*/
-}
-#like-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: inline-block;
-}
-#like-amount {
-    position: absolute;
-    top: 460px;
-    font-size: 25px;
-    left: 28px;
-    height: 100px;
-    color: rgb(65,103,178);
-    font-family: telenorRegularimport;
-}
-#like-tag {
-    position: absolute;
-    top: 492px;
-    font-size: 25px;
-    left: 32px;
-    height: 100px;
-    color: rgb(65,103,178);
-    font-family: telenorRegularimport;
-}
-
-.follow-IconDiv {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 600px;
-    left: 30px;
-    display: inline-block;
-}
-#follow-img{
-    max-height: 100%;
-    max-width: 100%;
-    display: inline-block;
-}
-#follow-amount {
-    position: absolute;
-    top: 676px;
-    font-size: 25px;
-    left: 28px;
-    height: 100px;
-    color: rgb(65,103,178);
-    font-family: telenorRegularimport;
-}
-#follow-tag {
-    position: absolute;
-    top: 710px;
-    font-size: 25px;
-    left: 32px;
-    height: 100px;
-    color: rgb(65,103,178);
-    font-family: telenorRegularimport;
-}*{
-    transition: all .5s linear;
-}
-@font-face{
-    font-family: telenorRegularimport;
-    src:url(telenorRegular.TTF);    
-}
-@font-face{
-    font-family: TelenorLightimport;
-    src:url(TelenorLight.TTF);
-}
-
-body{
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    color: black;
-    background-image: url("PartnershipFacebookBackgroundSplit.png");
-    background-repeat: no-repeat;
-}
-.container-fluid{
-    padding: 0px;
-    width: 960px;
-    height: 1080px;
-}
-.profilePictureDiv{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 70px;
-    left: 26px;
-}
-#profilePictureImg{
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-.grameenphoneTagDiv{
-    height: 50px;
+    top: 119px;
+    height: 270px;
     width: 270px;
-    position: absolute;
-    left: 48px;
-    top: 418px;
-    background-color: red;
-    opacity: .3;
-
-}
-#grameenPageName{
-    position: absolute;
-    left: 10px;
-    top: 280px;
-    font-size: 30px;
-    display: inline-block;
-    font-family: telenorRegularimport;
-}
-#grameenphoneAtTag{
-    font-family: telenorRegularimport;
-    height: 30px;
-    position: absolute;
-    left: 46px;
-    top: 320px;
-    font-size: 22px;
-}
-#grameenphoneIcon{
-    position: absolute;
-    left: 224px;
-    top: 292px;
-    height: 25px;
-    width: 25px;
-}
-.coverPictureDiv {
-    height: 260px;
-    width: 702px;
-    position: absolute;
-    top: 44px;
-    left: 256px;
-}
-#coverPictureImg{
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 0px 0px 20px 0px grey;
-}
-.recentPost {
-    position: absolute;
-    top: 800px;
-    height: 200px;
-    width: 200px;
-    left: 32px;
+    right: 122px;
 }
 #recentPostSize{
-    max-width: 100%;
-    max-height: 100%;
+    height: 270px;
+    width: 270px;
+    background-color: white;
     box-shadow: 0px 0px 20px 0px grey;
-    visibility: hidden;
 }
 #captionSize{
     font-size: 20px;
     position: absolute;
-    top: 1015px;
-    left: 85px;
+    top: 400px;
+    right: 300px;
     font-family: telenorRegularimport;
-    visibility: hidden;
 }
 .facebookVideoDiv{
     position: absolute;
-    top: 352px;
-    height: 351px;
-    width: 646px;
-    left: 285px;
+    bottom: 240px;
+    height: 328px;
+    width: 580px;
+    right: 190px;
     background-color: white;
-    box-shadow: 0px 0px 20px 0px grey;
+    border-radius: 15px;
 }
-/*#facebookVideoSize{
-    height: 446px;
-    width: 792px;
-    box-shadow: 0px 0px 20px 0px grey;
-}*/
+#facebookVideoSize{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px grey;
+    border-radius: 15px;
+    background-color: white;
+}
 #facebookvideoNameSize{
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
-    top: 706px;
-    left: 460px;
-    color: #20b2ae;
+    top: 460px;
+    left: 190px;
+    z-index: 1;
+    font-family: telenorRegularimport;
 }
 .shopDiv{
-    height: 295px;
-    width: 646px;
+    height: 225px;
+    width: 330px;
     position: absolute;
-    display: inline-flex;
-    right: 43px;
-    top: 766px;
+    left: 1585px;
+    top: 464px;
     background-color: white;
     box-shadow: 0px 0px 20px 0px grey;
 }
 #ShopTagSize{
     position: absolute;
-    top: 0px;
-    right: 588px;
-    color: darkblue;
+    top: 10px;
+    right: 360px;
     font-size: 20px;
 }
 #FirstAddDiv{
-    height: 235px;
-    width: 285px;
-    margin-left: 32px;
-    margin-top: 30px;
+    height: 100%;
+    /*background-color: red;
+    opacity: .3;*/
+    padding: 0px;
+    margin:0px;
 }
 #FirstAddSize{
-    height: 235px;
-    width: 285px;
-    margin-left: -16px;
-    margin-top: 0px;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 #firstprice-offer{
     position: absolute;
-    font-size: 18px;
-    top: 237px;
-    left: -2px;
+    font-size: 20px;
+    top: 165px;
+    left: 10px;
     font-family: telenorRegularimport;
 }
 #SecondAddDiv{
@@ -425,95 +186,106 @@ body{
 
 }
 #SecondAddSize{
-    height: 235px;
-    width: 285px;
-    margin-left: 14px;
-    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    margin-left: 6px;
+    margin-top: 10px;
 }
 #secondprice-offer{
     position: absolute;
-    font-size: 18px;
-    top: 266px;
-    left: 14px;
+    font-size: 20px;
+    top: 165px;
+    left: 8px;
     font-family: telenorRegularimport;
 }
-.addAreaDiv{
-    height: 235px;
-    width: 434px;
+.addAreaDiv-1{
+    height: 80px;
+    width: 145px;
     position: absolute;
-    bottom: 56px;
-    right: 30px;
-    visibility: hidden;
-    
+    bottom: 135px;
+    left: 190px;
+}
+.addAreaDiv-2{
+    height: 80px;
+    width: 145px;
+    position: absolute;
+    bottom: 135px;
+    right: 410px;
+}
+.addAreaDiv-3{
+    height: 80px;
+    width: 145px;
+    position: absolute;
+    bottom: 135px;
+    right: 190px;
 }
 #addAreaSize{
-    height: 235px;
-    width: 434px;
+    height: 100%;
+    border-radius: 15px;
+    width: 100%;
     background-color: white;
     box-shadow: 0px 0px 20px 0px grey;
+    z-index: 1;
 }
 .Like-IconDiv{
-    height: 100px;
-    width: 100px;
+    height: 45px;
     position: absolute;
-    top: 375px;
-    left: 30px;
+    top: 372px;
+    left: 190px;
     display: inline-block;
-    /*background-color: red;
-    opacity: .3;*/
 }
 #like-img{
-    max-width: 100%;
-    max-height: 100%;
+    height: 45px;
     display: inline-block;
 }
-#like-amount {
+#like-amount{
     position: absolute;
-    top: 460px;
-    font-size: 25px;
-    left: 28px;
-    height: 100px;
-    color: rgb(65,103,178);
+    top: 380px;
+    font-size: 15px;
+    left: 270px;
     font-family: telenorRegularimport;
 }
-#like-tag {
+#like-tag{
     position: absolute;
-    top: 492px;
-    font-size: 25px;
-    left: 32px;
-    height: 100px;
-    color: rgb(65,103,178);
+    top: 400px;
+    font-size: 15px;
+    left: 258px;
     font-family: telenorRegularimport;
 }
 
-.follow-IconDiv {
-    height: 100px;
-    width: 100px;
+.follow-IconDiv{
+    height: 60px;
+    width: 60px;
     position: absolute;
-    top: 600px;
-    left: 30px;
+    top: 377px;
+    left: 590px;
     display: inline-block;
 }
 #follow-img{
-    max-height: 100%;
-    max-width: 100%;
+    height: 45px;
     display: inline-block;
 }
-#follow-amount {
+#follow-amount{
     position: absolute;
-    top: 676px;
-    font-size: 25px;
-    left: 28px;
-    height: 100px;
-    color: rgb(65,103,178);
+    top: 380px;
+    font-size: 15px;
+    right: 210px;
     font-family: telenorRegularimport;
 }
-#follow-tag {
+#follow-tag{
     position: absolute;
-    top: 710px;
-    font-size: 25px;
-    left: 32px;
-    height: 100px;
-    color: rgb(65,103,178);
+    top: 400px;
+    font-size: 15px;
+    right: 190px;
     font-family: telenorRegularimport;
+}
+.body-wrapper{
+    background-color: #e9ebef;
+    position: absolute;
+    width: 730px;
+    height: 572px;
+    bottom: 76px;
+    box-shadow: 0px 0.5px 10px black inset;
+    right: 120px;
+    border-radius: 0px 0px 15px 15px;
 }
